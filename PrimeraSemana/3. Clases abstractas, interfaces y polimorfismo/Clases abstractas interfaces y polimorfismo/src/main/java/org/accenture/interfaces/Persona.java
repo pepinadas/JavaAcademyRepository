@@ -4,5 +4,4 @@ public interface Persona {
 
     String interactuar();
 
-    boolean jugar();
 }
