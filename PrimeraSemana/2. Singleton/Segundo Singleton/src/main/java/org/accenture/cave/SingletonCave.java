@@ -17,14 +17,14 @@ public class SingletonCave {
     // El numero total de visitantes que ha obtenido la cueva se guardaran aqui
     private static int visitors;
 
-
+    // El constructor de el Singleton
     private SingletonCave(int liveRequired) {
         this.liveRequired = liveRequired;
         this.survivors = new ArrayList<>();
 
     }
 
-    // El constructor de el Singleton
+    // Metodo getInstance
     static public SingletonCave getInstance(int liveRequired) {
         if(conDb == null) {
             // Asigna la vida necesaria y retorna una instancia.
