@@ -1,6 +1,8 @@
 package org.accenture.funcionamiento;
 
-public class Cocodrilo implements Animal{
+public class Cocodrilo extends Terrestre{
+
+    // Sobre escribe reaccionar, ya que es diferente su comportamiento.
     @Override
     public void reaccionar(boolean x) {
         if (x == true) {
